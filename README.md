@@ -4,7 +4,7 @@ This repository is where I post my blogs. Please see the site instead of this re
 
 ## Copyright
 
-Each piece of my work, except specifically indicated, should be published under Creative Commons CC-BY 4.0. See creativecommons.org for more details.
+Each piece of my work, except specifically indicated, should be published under Creative Commons CC-BY 4.0. See [Creative Commons](https://creativecommons.org/licenses/by/4.0/) for more details.
 
 The themes, frameworks, renderers, etc. are used under their own license. There is no such external work being used at this time.
 
