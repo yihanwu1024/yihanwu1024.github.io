@@ -4,9 +4,11 @@ This repository is where I post my blogs. Please see the site instead of this re
 
 ## Copyright
 
-Each piece of my work, except specifically indicated, should be published under [Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Each blog, except specifically indicated, should be published under [Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Themes, frameworks, renderers, etc. are used under their own license. There is no such external work being used at this time.
+Themes, frameworks, renderers, etc. are used under their own license. List of such external work:
+
+- Normalize.css, MIT license
 
 ## Commenting
 
