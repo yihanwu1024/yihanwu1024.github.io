@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; color: #282828; background-color: #f8f8f8; }
+
+h1 { font-size: 32px; font-weight: 500; }
+
+h2 { font-size: 24px; font-weight: 500; }
+
+h3 { font-size: 20px; font-weight: 500; }
+
+h4 { font-size: 16px; font-weight: 500; }
+
+h5 { font-size: 14px; font-weight: 500; }
+
+h6 { font-size: 12px; font-weight: 500; }
+
+p { margin-top: 0px; margin-bottom: 10px; }
+
+small { font-size: 90%; }
+
+large { font-size: 115%; }
+
+blockquote { margin-left: 2em; margin-right: 2em; margin-top: 8px; margin-bottom: 12px; color: #606060; font-style: italic; }
+
+ul, ol { padding-left: 2em; margin-top: 0px; margin-bottom: 10px; }
+
+dd { margin-left: 0px; }
+
+a { color: inherit; text-decoration: none; }
+
+code { font-family: monospace; background: #e0e0e0; border-radius:4px; padding: 0px 4px; font-size: 115%; }
+
+.wrapper { display: flex; }
+
+@media screen and (min-width: 800px) {
+    .wrapper { flex-direction: row; }
+    .blog-index { flex: 1.5 0.75 30%; padding: 8vh 8vw 6vh 2vw; }
+    .profile { flex: 1.5 0.75 10%; padding: 8vh 2vw 6vh 8vw; }
+    .blog-index-entry { padding: 24px; max-width: 540px; }
+    .blog-index-entry-divider { background-color: #c0c0c0; height: 2px; border-style: none; margin: 16px -24px; }
+    .blog-index-entry-a { margin: 0px 0px 24px 0px; }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper { flex-direction: column; margin: auto; max-width: 540px; }
+    .blog-index { padding: 0px 24px; }
+    .profile { padding: 0px 24px; margin: 40px 0px; }
+    .blog-index-entry { padding: 20px; max-width: 540px; }
+    .blog-index-entry-divider { background-color: #c0c0c0; height: 2px; border-style: none; margin: 16px -20px; }
+    .blog-index-entry-a { margin: 0px 0px 20px 0px; }
+}
+
+.profile { order: 1; }
+.blog-index { order: 2; display: flex; flex-direction: column-reverse; }
+.blog-index-entry { background-color: #f4f4f4; border-radius: 2px; box-shadow: 0px 2px 4px #808080; }
+.blog-index-entry-language { display: inline-block; float: right; font-weight: 600; color: #606060; }
+.blog-index-entry-title { margin: 0px 0px 12px 0px; display: inline-block; }
+.blog-index-entry-description { margin-bottom: 16px; }
+.blog-index-entry-date { color: #606060; font-style: italic; margin: 0px; }
