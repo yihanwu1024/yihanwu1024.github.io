@@ -17,3 +17,7 @@ Commenting on a blog is not possible at this time.
 ## To-do
 
 - Add a language selector.
+
+## Why aren't commits made through git commands?
+
+I'm using a Chromebook. Yes, it can run Debian in a VM, but the VM would slow the whole computer down. The Chromebook I'm using is entry-level, and cost CNY 1580, approx. USD 230.
