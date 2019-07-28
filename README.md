@@ -1,6 +1,6 @@
 # yihanwu1024.me
 
-This repository is where I post my blogs. Please see the site instead of this repository.
+This repository is where I post my blogs. Please see [the site](https://yihanwu1024.me) instead of this repository.
 
 ## Copyright
 
