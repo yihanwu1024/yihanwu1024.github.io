@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Noto 海报</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="blog-outline">
+                <h1>Noto 海报</h1>
+                <p class="blog-outline-description">为 Google Noto 字体制作的海报，之前的设计课作业。</p>
+                <p class="blog-outline-date">2019 年 7 月 2 日</p>
+                <hr class="blog-outline-divider">
+                <p class="blog-outline-label">梗概</p>
+                <ul class="blog-outline-list">
+                <li class="blog-outline-li"><a href="#authors">作者</a></li>
+                <li class="blog-outline-li"><a href="#about-the-noto-font">关于 Noto 字体</a></li>
+                <li class="blog-outline-li"><a href="#designing">设计</a></li>
+                <li class="blog-outline-li"><a href="#drawing">绘制</a></li>
+                <li class="blog-outline-li"><a href="#easter-egg">彩蛋</a></li>
+                </ul>
+            </div>
+            <div class="blog-content">
+                <img src="../assets/poster-pathed.svg" class="img-full-width"/>
+                <p><a class="a" href="../assets/poster-pathed.svg" download>下载转曲线后的 SVG</a></p>
+                <h2 id="authors">作者</h2>
+                <p>我和 704。</p>
+                <h2 id="about-the-noto-font">关于 Noto 字体</h2>
+                <p><a class="a" href="https://google.com/get/noto">Noto</a> 诞生的目的是消除“豆腐”，<cite>tofu</cite>，即当计算机中没有相应字体时显示的方块。它囊括了很多的书写系统。</p>
+                <h2 id="designing">设计</h2>
+                <p>我起初一个人创作，并选定 Noto 作为主题。最初的设计是在一个 6 列 7 行的网格中排列字符，每一行字重递减，顶上再盖上一层标题和描述。它是单色的，有黑色背景、深灰色的字符网格、浅灰色的描述文字和白色的标题。第二版为字符网格加入了透视效果，让字符看起来就像画在天花板上一样。</p>
+                <p>我去睡觉了，如愿意翻译请把翻译结果发在 issue 里面。I had drawn part of the initial design on paper was pondering for a third revision when 704 joined. After a two-minute sketch on my tablet, he came up with an idea. The grid was then moved to the bottom, as if it was a floor, or a road. The characters in the grid were also colored. It was this very moment when inspiration struck me, and I blurted out: NOTO is to stand in the road, with all characters behind it gray and randomly replaced with <cite>tofu</cite>! In the rest of the class, we finalized this design, adding specifications to the background and making NOTO glow.</p>
+                <h2 id="drawing">Drawing</h2>
+                <p>Aware of the unpleasant fact that none of us can draw a glyph precisely with perspective, we decided to use some kind of drawing program. Also knowing font files can be converted to SVG files, I chose Inkscape. I used an online converting program to convert TTF and OTF files to SVG, and by copy-pasting XML elements into the target SVG, I got all characters I needed in one file.</p>
+                <p>The following steps should be easy for anyone who is familiar with drawing programs. Rearrange, Distribute, Align, Group, Perspective, type the caption, Color, Shadow, the poster is done.</p>
+                <p>Why did I extract glyphs instead of copy-pasting individual characters from the character map? Because of bugs in all drawing programs I use, including PowerPoint, characters from certain scripts cannot be displayed in Noto font. Knowing some technical details sometimes helps you out!</p>
+                <h2 id="easter-eggs">Easter eggs</h2>
+                <p>The 4 colors used in the character road are extracted from the Google logo.</p>
+                <p>There are 2 emojis in the character road. Emojis are included in Noto.</p>
+            </div>
+        </div>
+    </body>
+</html>
