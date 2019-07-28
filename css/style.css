@@ -35,11 +35,11 @@ code { font-family: monospace; background: #e0e0e0; border-radius:4px; padding: 
 .wrapper { display: flex; }
 
 @media screen and (min-width: 800px) {
-    .wrapper { flex-direction: row; }
+    .wrapper { flex-direction: row; align-items: flex-start; }
     .blog-index { flex: 1.5 0.75 30%; margin: 8vh 8vw 6vh 2vw; }
     .blog-content { flex: 1.5 0.75 30%; margin: 8vh 8vw 6vh 2vw; }
     .profile { flex: 1.5 0.75 10%; margin: 8vh 2vw 6vh 8vw; }
-    .blog-outline { flex: 1.5 0.75 10%; margin: 8vh 2vw 6vh 8vw; padding: 16px 24px 24px 24px; background-color: #f4f4f4; border-radius: 2px; box-shadow: 0px 2px 4px #808080; }
+    .blog-outline { flex: 1.5 0.75 10%; margin: 10vh 2vw 6vh 8vw; padding: 16px 24px 24px 24px; background-color: #f4f4f4; border-radius: 2px; box-shadow: 0px 2px 4px #808080; height: }
     .blog-index-entry { padding: 24px; max-width: 540px; }
     .blog-index-entry-divider { background-color: #c0c0c0; height: 2px; border-style: none; margin: 16px -24px; }
     .blog-outline-divider { background-color: #c0c0c0; height: 2px; border-style: none; margin: 24px -24px; }
@@ -49,7 +49,7 @@ code { font-family: monospace; background: #e0e0e0; border-radius:4px; padding: 
 @media screen and (max-width: 800px) {
     .wrapper { flex-direction: column; margin: auto; max-width: 540px; }
     .blog-index { margin: 0px 24px; }
-    .blog-content { margin: 0px 24px; }
+    .blog-content { margin: 0px 24px 32px 24px; }
     .profile { margin: 40px 24px; }
     .blog-outline { margin: 40px 24px; padding: 12px 24px 20px 24px; background-color: #f4f4f4; border-radius: 2px; box-shadow: 0px 2px 4px #808080; }
     .blog-index-entry { padding: 20px; max-width: 540px; }
