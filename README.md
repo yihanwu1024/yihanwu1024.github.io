@@ -12,7 +12,7 @@ Themes, frameworks, renderers, etc. are used under their own license. List of su
 
 ## Commenting
 
-Commenting on a blog is not possible at this time.
+Commenting on a blog is not possible at this time. However, you may start an issue.
 
 ## To-do
 
