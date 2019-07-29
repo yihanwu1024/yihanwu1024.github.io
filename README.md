@@ -4,7 +4,7 @@ This repository is where I post my blogs. Please see [the site](https://yihanwu1
 
 ## Copyright
 
-Each blog, except specifically indicated, should be published under [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+All blogs, except specifically indicated, should be published under [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Themes, frameworks, renderers, etc. are used under their own license. List of such external work:
 
@@ -12,7 +12,7 @@ Themes, frameworks, renderers, etc. are used under their own license. List of su
 
 ## Commenting
 
-Commenting on a blog is not possible at this time. However, you may start an issue.
+Commenting on a blog is not possible at this time. However, you may start an issue, or contact me through social media.
 
 ## To-do
 
