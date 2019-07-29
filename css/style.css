@@ -4,6 +4,8 @@ html { font-family: sans-serif; text-size-adjust: 100%; }
 
 body { margin: 0px; color: #282828; background-color: #f8f8f8; }
 
+* { -webkit-tap-highlight-color: transparent; }
+
 h1 { font-size: 32px; font-weight: 500; }
 
 h2 { font-size: 24px; font-weight: 500; }
@@ -65,8 +67,8 @@ code { font-family: monospace; background: #e0e0e0; border-radius:4px; padding: 
 .profile-contact { margin-top: 32px; }
 .blog-index { order: 2; display: flex; flex-direction: column-reverse; }
 .blog-index-entry { background-color: #f4f4f4; border-radius: 2px; box-shadow: 0px 2px 4px #808080; transition: 0.2s; }
-.blog-index-entry:hover  { background-color: #fafafa; box-shadow: 0px 6px 12px #808080; transition: 0.2s; }
-.blog-index-entry:active { background-color: #ffffff; box-shadow: 0px 6px 16px #808080; transition: 0.1s; }
+.blog-index-entry: hover  { background-color: #fafafa; box-shadow: 0px 6px 12px #808080; transition: 0.2s; }
+.blog-index-entry: active { background-color: #ffffff; box-shadow: 0px 6px 16px #808080; transition: 0.1s; }
 .blog-index-entry-language { display: inline-block; float: right; font-weight: 600; color: #606060; }
 .blog-index-entry-title { margin: 0px 0px 12px 0px; display: inline-block; }
 .blog-index-entry-description { margin-bottom: 16px; }
